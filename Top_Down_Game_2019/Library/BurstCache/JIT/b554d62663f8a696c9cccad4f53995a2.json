@@ -1,0 +1,20 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsDefaultValue",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsDefaultValue(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> bool_93d5e8b958571ac1e2da6456150200c1"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_93d5e8b958571ac1e2da6456150200c1"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckWriteAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_93d5e8b958571ac1e2da6456150200c1"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}
