@@ -1,66 +1,61 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField] private float _healthSliderSpeed;
-    [SerializeField] private Slider _sliderGreen;
-    [SerializeField] private Slider _sliderRed;
-    [SerializeField] private Slider _sliderBlooe;
-    [SerializeField] private float _waitTime;
+    [HideInInspector] public float MaxHealth;
 
-    public float inHealth;
+    [HideInInspector] private float _health;
+    [HideInInspector] private float _lerpTimer;
+    [SerializeField] private float _chipSpeed = 2f;
+    [SerializeField] private Image _greenField;
+    [SerializeField] private Image _redField;
+    [SerializeField] private Image _bloeField;
 
-    [HideInInspector] private float passedHealth;
-    [HideInInspector] private float time;
-    
-    public void SetMaxHealth(float health)
+    private void Start()
     {
-        _sliderGreen.maxValue = health;
-        _sliderGreen.value = health;
-        _sliderRed.maxValue = health;
-        _sliderRed.value = health;
-        _sliderBlooe.maxValue = health;
-        _sliderBlooe.value = health;
-        passedHealth = health;
+        _health = MaxHealth;
     }
     private void Update()
     {
-        SetHealth(inHealth);
+        UpdateUI();
     }
-    public void SetHealth(float health)
+    public void SetNative(float health, float maxHealth)
     {
-        if(passedHealth > health)
+        MaxHealth = maxHealth;
+        _health = health;
+    }
+    private void UpdateUI()
+    {
+        float fillGreen = _greenField.fillAmount;
+        float fillRed = _redField.fillAmount;
+        float fillBloe = _bloeField.fillAmount;
+        float hFraction = _health / MaxHealth;
+        if (fillRed > hFraction)
         {
-            _sliderGreen.value = health;
-            _sliderBlooe.value = health;
-            if(time >= _waitTime)
-            {
-                _sliderRed.value -= Time.fixedDeltaTime * _healthSliderSpeed;
-                passedHealth -= Time.fixedDeltaTime * _healthSliderSpeed;  
-            }else
-            {
-                time += Time.fixedDeltaTime;
-            }              
+            _greenField.fillAmount = hFraction;
+            _bloeField.fillAmount = hFraction;
+            _lerpTimer += Time.deltaTime;
+            float percentComplete = _lerpTimer / _chipSpeed;
+            _redField.fillAmount = Mathf.Lerp(fillRed, hFraction, percentComplete);
         }
-        if(passedHealth < health)
+        if (fillGreen < hFraction)
         {
-            _sliderBlooe.value = health;
-            if(time >= _waitTime)
-            {
-                _sliderRed.value += Time.fixedDeltaTime * _healthSliderSpeed;
-                passedHealth += Time.fixedDeltaTime * _healthSliderSpeed;
-                _sliderGreen.value += Time.fixedDeltaTime * _healthSliderSpeed;
-            }else
-            {
-                time += Time.fixedDeltaTime;
-            }                   
+            _redField.fillAmount = hFraction;
+            _bloeField.fillAmount = hFraction;
+            _lerpTimer += Time.deltaTime;
+            float percentComplete = _lerpTimer / _chipSpeed;
+            _greenField.fillAmount = Mathf.Lerp(fillGreen, _redField.fillAmount, percentComplete);
         }
-        if(passedHealth == health)
-        {
-            time = 0f;
-        } 
+    }
+    public void TakeDamage(float damage)
+    {
+        _health -= damage;
+        _lerpTimer = 0f;
+    }
+    public void RestoreHealth(float healAmount)
+    {
+        _health += healAmount;
+        _lerpTimer = 0f;
     }
 }

@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 3920 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/CUBOID/Top_Down_Game_2019
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52783
+Successfully changed project path to: C:/CUBOID/Top_Down_Game_2019
+C:/CUBOID/Top_Down_Game_2019
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 352.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/CUBOID/Top_Down_Game_2019/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 530 (ID=0x6900)
+    Vendor:   
+    VRAM:     2038 MB
+    Driver:   27.20.21003.1028
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007878 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 300.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2782ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (2181ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (948ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (301ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.053327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 334.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5529ms)
+		BeginReloadAssembly (518ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (4796ms)
+			LoadAssemblies (453ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1234ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (266ms)
+			SetupLoadedEditorAssemblies (2016ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (335ms)
+				BeforeProcessingInitializeOnLoad (405ms)
+				ProcessInitializeOnLoadAttributes (1104ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3625 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.8 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 4038.
+Total: 52.858000 ms (FindLiveObjects: 2.569400 ms CreateObjectMapping: 0.859000 ms MarkObjects: 47.137600 ms  DeleteObjects: 2.286600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b830b32242b5cd01977867789ba4ec6') in 6.890284 seconds 
+  Import took 6.972693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.907445 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5152641293ddf79fc122dd04680b0f6c') in 0.071609 seconds 
+  Import took 0.112144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.965655 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7dc13dc4975244cce00de7a76741cc') in 0.086357 seconds 
+  Import took 0.113681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.272991 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208a67da61a61f4304cdc297b675eabe') in 0.068815 seconds 
+  Import took 0.086793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.862965 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6301c33a94d6cc2c1747b48600e3bcc5') in 0.069018 seconds 
+  Import took 0.087222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.117816 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3290ecc15cebbd610291d05a8f5be5ed') in 0.068774 seconds 
+  Import took 0.090477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.451224 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a171e87df472878f75b476c6ca6540fa') in 0.071537 seconds 
+  Import took 0.091939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.310348 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee296767202df4855359bc506db69b') in 0.066809 seconds 
+  Import took 0.085673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.971095 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853f81e81a03c016912b3a249b64e517') in 0.067350 seconds 
+  Import took 0.090045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533306 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663eb4993ed35eb51cf7909fb39e626f') in 0.067382 seconds 
+  Import took 0.089101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.508625 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de1d468429f984f31dc60704605273c') in 0.057842 seconds 
+  Import took 0.076420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.720538 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864430d13e1233f1ef0609b418306d99') in 0.064353 seconds 
+  Import took 0.086260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812508 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eec0464349f24ed0888dda18d6b5b3') in 0.061250 seconds 
+  Import took 0.091838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.587212 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c23f7bb8eadf63f5469651893ee1cef') in 0.074162 seconds 
+  Import took 0.105480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.707254 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa95eececf224c33af4b2a8676373af') in 0.058532 seconds 
+  Import took 0.084265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.116457 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef83c37bbbbef4125791950b9b92b3ab') in 0.092841 seconds 
+  Import took 0.133787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.302197 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9490f6321e3782ec9c69cca6836d47cd') in 0.055607 seconds 
+  Import took 0.078259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.685176 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85d1da8b9b79282129148e087ac52c5') in 0.071898 seconds 
+  Import took 0.094184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.116409 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab
+  artifactKey: Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab using Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b661e07f509e2c6b6ecb130ea9a59ec2') in 0.113461 seconds 
+  Import took 0.140419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.517828 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab
+  artifactKey: Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab using Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be4f61585a3442dbc54265ed6853f9f') in 0.061989 seconds 
+  Import took 0.087340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.308363 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab
+  artifactKey: Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab using Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7236c22e7482756c4b2d11b19a6f2235') in 0.113467 seconds 
+  Import took 0.131246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.474521 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab
+  artifactKey: Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab using Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c8986414f9f807dc3e48673fe9b435') in 0.092065 seconds 
+  Import took 0.116893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.971974 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab
+  artifactKey: Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab using Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c276cee46fd98becf579c642861f989c') in 0.073900 seconds 
+  Import took 0.099259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.278145 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab
+  artifactKey: Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab using Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387d42b924fc9bc88b5af79b8c59cfd7') in 0.071492 seconds 
+  Import took 0.090196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.264016 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab
+  artifactKey: Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin with gun.prefab using Guid(8df87998de36da34aa3bd1475c63c13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cbb4e28e836cdcc345fce324011744') in 0.066714 seconds 
+  Import took 0.086460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.112411 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab
+  artifactKey: Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/Goblin.prefab using Guid(98829fb77cc4f734b9508719436b2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24d65e149179f99633562d71ab03b6a') in 0.059965 seconds 
+  Import took 0.080009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.888511 seconds.
+  path: Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab
+  artifactKey: Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Alive/Enemyes/Goblins/King of goblins.prefab using Guid(2ff53792246c10c4f86a774ce83eaba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f215a67211a6546b3bee4dc4b4187f') in 0.088040 seconds 
+  Import took 0.116098 seconds .
+

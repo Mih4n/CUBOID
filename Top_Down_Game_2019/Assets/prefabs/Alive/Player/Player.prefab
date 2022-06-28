@@ -530,7 +530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c9f7e56ed25154c8d543f81b0f844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ControlTypeNow: 0
+  ControlTypeNow: 1
+  _rigidbody: {fileID: 6114706959614504497}
   _playerPreferences: {fileID: 11400000, guid: 91e1b088682b20b4b9de1ae6938eb274, type: 2}
   _healthBar: {fileID: 0}
   _movementJoystick: {fileID: 0}

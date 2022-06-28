@@ -22,15 +22,15 @@ public class DeathScript : MonoBehaviour
 
     private void Death()
     {
+        _deathScreen.SetActive(true);
         Time.timeScale = 0f;
         foreach(GameObject canvase in _canvases)
             canvase.SetActive(false);
-        _deathScreen.SetActive(true);
     }
 
     private void Rebirth()
     {
-        _player.Health = 100;
+        _player.RestoreHealth(100);
         Time.timeScale = 1f;
         _deathScreen.SetActive(false);
         foreach(GameObject canvase in _canvases)
@@ -57,7 +57,7 @@ public class DeathScript : MonoBehaviour
 
     private void HandleUserEarnedReward(object sender, Reward e)
     {
-        _player.Health = 100;
+        _player.RestoreHealth(100);
         Time.timeScale = 1f;
         _deathScreen.SetActive(false);
         foreach(GameObject canvase in _canvases)

@@ -16,7 +16,7 @@ public class HealthItem : MonoBehaviour
 
     public void Use() {
         Instantiate(_healthEffect, _player.transform.position, Quaternion.identity);
-        _player.ChangeHealth(-_healthBoost);
+        _player.RestoreHealth(_healthBoost);
         Destroy(gameObject);
     }
 }

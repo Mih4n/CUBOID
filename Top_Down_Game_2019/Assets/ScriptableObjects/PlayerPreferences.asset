@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerPreferences
   m_EditorClassIdentifier: 
   _speed: 6
-  _health: 10000
+  _health: 100

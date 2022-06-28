@@ -47,6 +47,6 @@ public class Enemy : EnemyMinde
     }
     private void OnEnemyAttack()
     {
-        Player.ChangeHealth(_damage);
+        Player.TakeDamage(_damage);
     }
 }

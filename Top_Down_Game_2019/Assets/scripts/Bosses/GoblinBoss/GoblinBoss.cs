@@ -45,6 +45,6 @@ public class GoblinBoss : EnemyMinde
     }
     public void OnEnemyAttack()
     {
-        Player.ChangeHealth(_damage);
+        Player.TakeDamage(_damage);
     }
 }

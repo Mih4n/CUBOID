@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -10,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
        public ControlType ControlTypeNow;
 
     [Header("MovementSettings")]
+    [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private PlayerPreferences _playerPreferences;
     [SerializeField] private HealthBar _healthBar; 
     [SerializeField] private Joystick _movementJoystick;
@@ -22,27 +21,16 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject Crosshair;
 
-    [HideInInspector] public int _health;
-    public int Health
+    [HideInInspector] public float _health;
+    public float Health
     {
         get{ return _health;}
-        set
-        {
-            if(value > _maxHealth)
-                _health = _maxHealth;
-            else
-                if(value  < 0)
-                    _health = 0;
-                else
-                    _health = value;
-        }
     }
-    [HideInInspector] private int _maxHealth;
+    [HideInInspector] private float _maxHealth;
     [HideInInspector] private float _speed;   
     [HideInInspector] private Inventory _inventory; 
     [HideInInspector] private int _loopOfweaponSlots;
     [HideInInspector] private bool _facingRight = true;
-    [HideInInspector] private Rigidbody2D _rigidbody;
     [HideInInspector] private Vector2 _moveInput;
     [HideInInspector] private Vector2 _moveInputbullet;
     [HideInInspector] private Vector2 _moveVelocity;
@@ -57,12 +45,11 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1f;
+        _healthBar.SetNative(_health, _maxHealth);
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        _healthBar.SetMaxHealth(_health);
         _inventory = gameObject.GetComponent<Inventory>();
     }
-    
     private void Update()
     {
         MovementControl();
@@ -161,9 +148,14 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
-    public void ChangeHealth(int healthValue)
+    public void TakeDamage(float damage)
     {
-        _health -= healthValue;
-        _healthBar.inHealth = _health;
+        _health -= damage;
+        _healthBar.TakeDamage(damage);
+    }
+    public void RestoreHealth(float healAmount)
+    {
+        _health += healAmount;
+        _healthBar.RestoreHealth(healAmount);
     }
 }
